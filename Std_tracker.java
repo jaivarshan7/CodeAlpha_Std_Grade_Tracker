@@ -8,7 +8,7 @@ public class Std_tracker {
         int numstd = Scan.nextInt();
         double[] grades = new double[numstd];
         for (int i = 0; i < numstd; i++) {
-            System.out.println("Enter the grade for the student " + (i + i) + ": ");
+            System.out.println("Enter the grade for the student " + (i + 1) + ": ");
             grades[i] = Scan.nextDouble();
         }
         double sum = 0;
